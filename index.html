@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="theme-color" content="#ffaf00">
+    <title>PenguinPeople</title>
+    <link rel="icon" href="./assets/site/icon.png">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/index.css">
+    <script src="./assets/js/index.js"></script>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="title" content="PenguinPeople">
+    <meta name="description" content="Hello there! We're the Penguin People.">
+    <meta name="image" content="./assets/site/banner.png">
+    <meta property="og:title" content="PenguinPeople">
+    <meta property="og:description" content="Hello there! We're the Penguin People.">
+    <meta property="og:image" content="./assets/site/banner.png">
+  </head>
+  <body>
+    <div id="top" class="container">
+      <header class="d-flex justify-content-center py-3">
+        <ul class="nav nav-pills">
+          <li class="nav-item"><a href="#top" class="nav-link font-2 text-dark">Home</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link font-2 text-dark">About</a></li>
+          <li class="nav-item"><a href="#work" class="nav-link font-2 text-dark">Work</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link font-2 text-dark">Contact</a></li>
+        </ul>
+      </header>
+    </div>
+    <div class="px-4 py-5 my-5 text-center d-grid gap-4">
+      <img class="d-block mx-auto mb-4" src="./assets/site/icon.png" width="75" height="75">
+      <h1 class="display-5 fw-bold theme-text font-3">Hello there!</h1>
+      <div class="col-lg-6 mx-auto">
+        <p class="lead mb-4 text-dark font-2">We're the PenguinPeople.</p>
+        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+          <a type="button" href="#about" class="btn btn-dark border-dark btn-lg px-4 gap-3 font-2 theme-bg border">Learn More</a>
+          <a type="button" href="#work" class="btn btn-outline-dark border-dark btn-lg px-4 font-2 border">View Our Work</a>
+        </div>
+      </div>
+    </div>
+    <div id="about" class="container my-5 d-grid gap-4">
+      <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 shadow-lg">
+        <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+          <h1 class="display-4 fw-bold lh-1 theme-text font-3">We're the PenguinPeople.</h1>
+          <p class="lead text-dark font-1">We're just two penguins that enjoy making good quality websites at good quality prices.</p>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
+            <a type="button" href="#work" class="btn btn-dark border-dark btn-lg px-4 me-md-2 fw-bold font-2 theme-bg border">View Our Work</a>
+            <a type="button" href="#contact" class="btn btn-outline-dark border-dark btn-lg px-4 font-2 border">Contact Us</a>
+          </div>
+        </div>
+        <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
+          <img class="rounded border theme-border" src="./assets/site/web.png" width="720">
+        </div>
+      </div>
+    </div>
+    <div id="work" class="container d-grid gap-4">
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="./assets/site/banner.png" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title font-3 theme-text">Coming Soon...</h5>
+              <p class="card-text font-2 text-dark">Coming soon...</p>
+              <a type="button" href="#" aria-disabled="true" class="btn disabled btn-dark border-dark font-2 theme-bg border">Soon</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="./assets/site/banner.png" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title font-3 theme-text">Coming Soon...</h5>
+              <p class="card-text font-2 text-dark">Coming soon...</p>
+              <a type="button" href="#" aria-disabled="true" class="btn disabled btn-dark border-dark font-2 theme-bg border">Soon</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="./assets/site/banner.png" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title font-3 theme-text">Coming Soon...</h5>
+              <p class="card-text font-2 text-dark">Coming soon...</p>
+              <a type="button" href="#" aria-disabled="true" class="btn disabled btn-dark border-dark font-2 theme-bg border">Soon</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="contact" class="px-4 pt-5 my-5 text-center">
+      <h1 class="display-4 fw-bold theme-text font-3">Contact</h1>
+      <div class="col-lg-6 mx-auto">
+        <p class="lead mb-4 font-2 text-dark">Feel free to send us any message you want :)</p>
+        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+          <a type="button" href="mailto:PenguinPeople@pm.me" class="btn btn-dark btn-lg font-2">Mail</a>
+          <a type="button" href="https://discord.com/users/1044060321658195968" class="btn btn-dark btn-lg font-2">Discord User</a>
+        </div>
+      </div>
+    </div>  
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/scrollreveal.min.js"></script>
+    <script>ScrollReveal().reveal("*",{delay:100,reset:true});</script>
+  </body>
+</html>

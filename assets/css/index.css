@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+:root {
+  --theme-color: #ffaf00;
+  --theme-color-light: #ffc850;
+  --theme-color-dark: #c88c00;
+}
+
+*{transition:all 100ms ease-in-out 0ms!important;}
+
+@font-face{font-family:"Staatliches-Regular";src:url("../fonts/Staatliches-Regular.ttf");}
+@font-face{font-family:"Poppins-ExtraBold";src:url("../fonts/Poppins-ExtraBold.ttf");}
+@font-face{font-family:"Poppins-Medium";src:url("../fonts/Poppins-Medium.ttf");}
+
+.font-1{font-family:"Poppins-Medium"!important;}
+.font-2{font-family:"Poppins-ExtraBold"!important;}
+.font-3{font-family:"Staatliches-Regular"!important;}
+
+.theme-text{color:var(--theme-color)!important;}
+.theme-border{border-color:var(--theme-color)!important;}
+.theme-bg{background-color:var(--theme-color)!important;}
+
+.border{border-width:3px!important;border-radius:10px!important;}
